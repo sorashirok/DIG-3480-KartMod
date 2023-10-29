@@ -1,0 +1,700 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1698565374825355, "dur": 561428, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698565374825388, "dur": 1722, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698565374827112, "dur": 558586, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698565375385700, "dur": 1082, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698565375387328, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698565374858950, "dur":1513, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565374860480, "dur":314, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698565374860861, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698565374860897, "dur":235, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698565374861166, "dur":1168, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565374862334, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350550, "dur":87, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350638, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350681, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350686, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350694, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350697, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350705, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350707, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350714, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350730, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375350761, "dur":3506, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698565374861856, "dur":487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374862345, "dur":8069, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374870429, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698565374870433, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374870555, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698565374870558, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374870632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374871429, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698565374874729, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698565374874880, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374874936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374875199, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698565374878411, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1698565374878544, "dur":1462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374880017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374880091, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1698565374881905, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698565374882044, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374882108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374882117, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698565374883918, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698565374884044, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374884242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374884414, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698565374885794, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698565374885908, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374885967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374885975, "dur":2811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698565374888859, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374888989, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374889068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374889264, "dur":7616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374897595, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment.exe" }}
+,{ "pid":12345, "tid":1, "ts":1698565374897738, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374897825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374897836, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment.exe" }}
+,{ "pid":12345, "tid":1, "ts":1698565374900981, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374901066, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374901160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374901705, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374906366, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374906433, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374906525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374906534, "dur":8044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374914645, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374914704, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374914771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374914779, "dur":4076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374919409, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374919767, "dur":556, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374920334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374920345, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374922290, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374922363, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374922450, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374922463, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374924411, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374924481, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374924542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374924552, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374926870, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374926928, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374927021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374927031, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374928666, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374928746, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374928810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374928822, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374930496, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374930557, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374930624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374930634, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374931966, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374932027, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374932118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374932126, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374933647, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374933730, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374933803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374933814, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374935504, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374935564, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374935625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374935633, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374937932, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374938027, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374938189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374938196, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374940040, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374940095, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374940498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374940508, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374942104, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374942168, "dur":485, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374942663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374942673, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374944268, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374944335, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374944864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374944873, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374947128, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374947198, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374947256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374947262, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374948898, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374948965, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374949025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374949033, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374951204, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374951263, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374951393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374951404, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374953374, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374953443, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374953723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374953735, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374955856, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374956658, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374956724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374956734, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374958730, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374958894, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374958963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374958972, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374961306, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374961659, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374961851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374961861, "dur":16320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374978245, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374978455, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374978651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374978663, "dur":6188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374984912, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374985105, "dur":7281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374992545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374992557, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374994186, "dur":1429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565374995616, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374995948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565374995956, "dur":14104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375010123, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375010308, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375010419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375010428, "dur":22975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375033490, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375033597, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375033681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375033691, "dur":13203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375046956, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375047024, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375047106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375047114, "dur":38683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375085857, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375085931, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375086006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375086015, "dur":26267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375112361, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375112551, "dur":19141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375131703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375131716, "dur":34055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375165829, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375166296, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375166359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375166510, "dur":80127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698565375246723, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698565375255213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375255361, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698565375259069, "dur":61973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698565375321049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698565375321056, "dur":29415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698565375350518, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1698565375350519, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374861938, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374862349, "dur":8085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374870434, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374870595, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374870661, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374873070, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374874914, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374875045, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374875098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374875189, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374877988, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698565374878130, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374878221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374879590, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698565374881208, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374881392, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374881473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374881483, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374883608, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374883754, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374884226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374884407, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374885856, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374885965, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374886019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374886025, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1698565374887317, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1698565374887433, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374887500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374887508, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1698565374888865, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374888986, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374889048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374889054, "dur":16498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374905628, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374905701, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374905770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374905853, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374907124, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374907196, "dur":6751, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374913962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374913974, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374916558, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374916645, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374916717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374916728, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374918433, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374918504, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374918588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374918600, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374919901, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374919976, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374920041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374920049, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374921937, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374922014, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374922100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374922109, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374924133, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374924209, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374924275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374924287, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374925543, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374925619, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374926015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374926044, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374927508, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374927583, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374927685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374927695, "dur":5652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374934126, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374934332, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374934494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374934501, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374937077, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374937173, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374937281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374937291, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374939671, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374939844, "dur":646, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374940498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374940508, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374943584, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374943659, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374943726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374943736, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374945573, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374945634, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374945983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374945991, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374950117, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374950258, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374950450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374950462, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374952773, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374952846, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374952925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374952933, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374954907, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374955018, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374955205, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374955221, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374956670, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374956736, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374956819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374956825, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374958697, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374959278, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374959348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374959417, "dur":25132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374984620, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374985173, "dur":7213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374992485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374992496, "dur":5121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374997690, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565374998042, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374998125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565374998132, "dur":11805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375010003, "dur":821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375010825, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375010896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375010904, "dur":25468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375036438, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375036509, "dur":9106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375045769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375045784, "dur":17098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375062954, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375063025, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375063087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375063098, "dur":48108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375111283, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375111349, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375111411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375111422, "dur":54104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375165590, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375165651, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375165714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375165723, "dur":14221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375180000, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375180045, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375180106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375231417, "dur":17197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698565375248707, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698565375255177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375255226, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698565375257983, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698565375258612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375258626, "dur":15735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698565375274464, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698565375274571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375274583, "dur":13963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698565375288615, "dur":1457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1698565375290072, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375290167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375290177, "dur":5702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1698565375295942, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698565375296008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375296014, "dur":6222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698565375302297, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1698565375302364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375302369, "dur":6946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1698565375309446, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698565375309518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375309527, "dur":4219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698565375313821, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565375314327, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375314409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698565375314420, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1698565375315750, "dur":34783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374861981, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374862356, "dur":8059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374870428, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1698565374870595, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374870670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374912843, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1698565374914372, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374914440, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374914623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374914634, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374917047, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374917115, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374917261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374917269, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374919054, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374919117, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374919176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374919186, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374920546, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374920608, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374920696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374920704, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374922655, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374922722, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374922794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374922804, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374924751, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374924819, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374924870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374924880, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374926850, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374926920, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374926988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374926998, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374928707, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374928763, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374928820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374928826, "dur":7560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374936453, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374936525, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374936593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374936601, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374938796, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374938861, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374938972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374938980, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374941493, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374941571, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374941695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374941704, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374944173, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374944254, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374944606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374944615, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374947053, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374947117, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374947182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374947193, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374948742, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374948806, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374948882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374948893, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374951320, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374951459, "dur":1061, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374952565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374952578, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374955804, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374956440, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374956528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374956537, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374958167, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374958537, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374958604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374958615, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374960225, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374960403, "dur":461, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374960874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374960885, "dur":16675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374977635, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374977814, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374977963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374977974, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374979348, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374979585, "dur":4421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374984012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374984019, "dur":9699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374993775, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374994063, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374994131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374994138, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374997458, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565374997969, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374998064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565374998073, "dur":12044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375010178, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375010251, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375010315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375010326, "dur":22766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375033165, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375033228, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375033490, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375033527, "dur":12973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375046562, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375046628, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375046695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375046706, "dur":16470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375063240, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375063316, "dur":21745, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375085070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375085082, "dur":26280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375111419, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375111478, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375111536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375111545, "dur":54030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375165638, "dur":1454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375167092, "dur":12642, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375179744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375179754, "dur":67377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698565375247222, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375255217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375255230, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375257854, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375257961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375257972, "dur":12797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375270886, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698565375271017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375271034, "dur":7353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698565375278529, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1698565375279222, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375279630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375279643, "dur":9262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1698565375288993, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698565375289069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375289075, "dur":6527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698565375295667, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375295735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375295742, "dur":6238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375302054, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375302130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375302138, "dur":6935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698565375309133, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1698565375309197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375309229, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1698565375311473, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698565375311585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698565375311600, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698565375314748, "dur":35784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374862026, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374862366, "dur":8050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374870429, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698565374870573, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374870639, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374873709, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698565374875167, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698565374875290, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374875362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374875371, "dur":3460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698565374878900, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1698565374879022, "dur":896, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374879957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374880054, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1698565374882638, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698565374882794, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374882875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374884241, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698565374885711, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698565374885877, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374885937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374885946, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698565374887951, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374888083, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374888303, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374889159, "dur":7292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374896567, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698565374896745, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374896818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374896829, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698565374900370, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1698565374900580, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374900688, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374901096, "dur":15535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1698565374916715, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374916783, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374916851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374916861, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374918734, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374918802, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374918889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374918900, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374920315, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374920382, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374920446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374920456, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374922435, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374922512, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374922657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374922664, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374924604, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374925084, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374925155, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374925168, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374926893, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374926951, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374927022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374927029, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374929764, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374929865, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374929966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374929978, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374931181, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374931245, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374931304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374931313, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374932593, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374932661, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374932725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374932736, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374934115, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374934184, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374934256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374934264, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374935836, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374935942, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374936061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374936072, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374937930, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374937999, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374938107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374938116, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374940062, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374940114, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374940611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374940619, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374944460, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374944519, "dur":1099, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374945625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374945635, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374947293, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374947354, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374947411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374947449, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374950264, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374950321, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374950614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374950621, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374952884, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374952949, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374953012, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374953029, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374955174, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374955409, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374955489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374955499, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374956923, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374957101, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374957175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374957183, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374958917, "dur":891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374959808, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374959898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374959910, "dur":7549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374967559, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374968122, "dur":9241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374977373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374977383, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374979018, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374979230, "dur":4678, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374983917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374983930, "dur":9247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374993243, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374993662, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374993736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374993747, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374995960, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565374996026, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374996515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565374996719, "dur":13391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375010179, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375010266, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375010335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375010418, "dur":23376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375033857, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375033919, "dur":1268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375035197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375035206, "dur":11706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375046973, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375047033, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375047098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375047108, "dur":38385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375085562, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375085652, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375085723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375085734, "dur":26085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375111887, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375112152, "dur":19541, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375131704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375131716, "dur":34310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375166087, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375166294, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375166359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375166404, "dur":65572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375232081, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375232171, "dur":15457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375247639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375248075, "dur":9882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698565375258552, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1698565375258813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375258823, "dur":15399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1698565375274319, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1698565375274424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375274434, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1698565375278306, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698565375278438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375278451, "dur":10213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698565375288727, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698565375288792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375288801, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698565375295675, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1698565375295735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375295742, "dur":6236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1698565375302047, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1698565375302117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375302125, "dur":6830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1698565375309025, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698565375309099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375309107, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698565375312214, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1698565375312320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698565375312334, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hector/Downloads/KartMod_PostProcessing/Merced_KartAssignment_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1698565375314659, "dur":35875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698565375356607, "dur":3453, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1698565375387408, "dur": 831, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698565375387318, "dur": 946, "ph": "X", "name": "Write chrome-trace events", "args": {} },
